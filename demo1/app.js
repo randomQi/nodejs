@@ -29,3 +29,13 @@ const url=require("url")
   }).listen(8081);
   
   console.log('Server running at http://127.0.0.1:8081/');
+
+
+    beforeAll(() => {
+      
+    })
+
+    test('', () => {
+      let obj = { a: '1' }
+      expect(obj).toEqual({ a: '1' })
+    })
